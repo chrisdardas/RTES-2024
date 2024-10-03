@@ -259,7 +259,7 @@ void create_client()
   client.context = context;
   client.address = "ws.finnhub.io";
   client.port = 443; // For secure WebSocket connection
-  client.path = "/?token=cqjma0pr01qnjotg7cp0cqjma0pr01qnjotg7cpg";//";cpq4731r01qo647ncergcpq4731r01qo647nces0
+  client.path = "/?token=cqjma0pr01qnjotg7cp0cqjma0pr01qnjotg7cpg";
   client.host = client.address;
   client.origin = client.address;
   client.protocol = protocols[0].name; // protocol to be used for the client
